@@ -6,7 +6,7 @@
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.RowConstraints?>
 
-<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" fx:controller="com.example.bartabalazs_lotto.HelloController" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bartabalazs_lotto.HelloController">
   <columnConstraints>
     <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
     <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
@@ -17,8 +17,8 @@
       <RowConstraints />
   </rowConstraints>
    <children>
-      <Button mnemonicParsing="false" onAction="#sorsol" text="Button" />
-      <Label text="Label" GridPane.columnIndex="1" />
-      <Label text="Label" GridPane.columnSpan="2" GridPane.rowIndex="1" />
+      <Button mnemonicParsing="false" onAction="#sorsol" text="Sorsol" />
+      <Label fx:id="szamEppen" text="" GridPane.columnIndex="1" />
+      <Label fx:id="szamok" text="" GridPane.columnSpan="2" GridPane.rowIndex="1" />
    </children>
 </GridPane>
